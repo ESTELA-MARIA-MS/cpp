@@ -10,7 +10,7 @@ int main(int argc, char const *argv[])
     cin >> nombre;
 
     cout << endl;
-    cout << "Hola mi mombre es " << nombre;
+    cout << "Hola mi nombre es " << nombre;
     cout << endl;
     return 0;
 }
