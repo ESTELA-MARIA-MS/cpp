@@ -9,7 +9,7 @@ string listaProductos;
 
 void agregarProducto(string descripcion, int cantidad, double precio)
 {
-    listaProductos = listaProductos + descripcion + 'n';
+    listaProductos = listaProductos + descripcion + '/n';
 
     impuesto =precio*.15;
 
