@@ -1,6 +1,5 @@
 #include <iostream>
-#include <stdlib.h> // srand, rand
-#include <time.h>
+
 
 int numeroSeceto = 7;
 void adivinarNumeroSecreto(int miNumero)
