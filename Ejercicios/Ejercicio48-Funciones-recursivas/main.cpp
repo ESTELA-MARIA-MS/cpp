@@ -1,6 +1,6 @@
 #include <iostream>
 
-
+using namespace std;
 int numeroSeceto = 7;
 void adivinarNumeroSecreto(int miNumero)
 {
