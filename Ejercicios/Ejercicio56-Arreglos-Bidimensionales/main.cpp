@@ -22,10 +22,10 @@ int main(int argc, char const *argv[])
          cout << nombres[i][j] << " ";
 
          }
-        
+         
+        cout << endl;
     }
 
-         cout << endl;
 
 	return 0;
 }
