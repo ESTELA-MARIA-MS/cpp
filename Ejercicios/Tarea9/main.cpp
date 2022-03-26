@@ -4,7 +4,6 @@
 
 using namespace std;
 
-
 int input (int cant)
 {
   if (cant == 1)
@@ -25,13 +24,11 @@ int lanzardado ()
   cout << "Obtuvo " << ran << endl;
   return ran;
 }
-
 int dado (int edado, int adado)
 {
-  cout << "Has avanzado " << edado + adado << " casillas" << endl;
+  cout << "Has avanzado a la casilla " << edado + adado << endl << "*FELICIDADES*" << endl;
   return edado + adado;
 }
-
 int main ()
 {
 	
