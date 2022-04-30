@@ -41,9 +41,9 @@ int main()
 
 	do
 	{
-		cout<<"****"<< endl;
+		cout<<"************************************************"<< endl;
 		cout<<"BIENVENIDO AL SISTEMA DE ESTADISTICAS COVID-19"<< endl;
-		cout<<"****"<< endl;
+		cout<<"************************************************"<< endl;
 		cout<<"Ingrese la opcion de su preferencia:"<<endl;
 		cout<<"--------------------------------------------------------------"<<endl<<endl;
 		cout<<"1.- Ingresar pacientes"<<endl;
@@ -53,8 +53,8 @@ int main()
 		cout<<"5.- Dar de alta paciente"<<endl;
 		cout<<"6.- Salir"<<endl;
 		cin>>n;
-		cout<<"****"<< endl;
-	    cout<<"****"<< endl;
+		cout<<"****************************************************"<< endl;
+	    cout<<"*****************************************************"<< endl;
 		 
  
 		system("cls");
