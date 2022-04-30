@@ -41,9 +41,9 @@ int main()
 
 	do
 	{
-		cout<<"**********************"<< endl;
+		cout<<"****"<< endl;
 		cout<<"BIENVENIDO AL SISTEMA DE ESTADISTICAS COVID-19"<< endl;
-		cout<<"**********************"<< endl;
+		cout<<"****"<< endl;
 		cout<<"Ingrese la opcion de su preferencia:"<<endl;
 		cout<<"--------------------------------------------------------------"<<endl<<endl;
 		cout<<"1.- Ingresar pacientes"<<endl;
@@ -53,8 +53,8 @@ int main()
 		cout<<"5.- Dar de alta paciente"<<endl;
 		cout<<"6.- Salir"<<endl;
 		cin>>n;
-		cout<<"************************"<< endl;
-	    cout<<"************************"<< endl;
+		cout<<"****"<< endl;
+	    cout<<"****"<< endl;
 		 
  
 		system("cls");
@@ -187,19 +187,21 @@ int main()
 							cout<<"Padecimiento: "<<pac[i].med.enfermedad<<endl;
 							cout<<"----------------------------------------------"<<endl;
 							cout<<endl<<endl;
+                            c=1;
 							
 					   } 
-					   	
-							      
-				   }  
-						if(c==0)
+                       if(c==0)
 	               	       {
 	               		    cout<<"Paciente no registrado..."<<endl;
 	               		    system("pause>null");
 					    	system("cls");
 	               		   
 						} 
-						cout<<"----------------------------------------------"<<endl;
+					   	
+							      
+				   }  
+						
+				  cout<<"----------------------------------------------"<<endl;
 		  		  cout<<"----------------------------------------------"<<endl;
                   cout<<endl<<"Desea regresar al menu"<<endl;
 		          cout<<"1.SI"<< endl;
@@ -231,8 +233,9 @@ int main()
 							cout<<"Padecimiento: "<<pac[i].med.enfermedad<<endl;
 							cout<<"----------------------------------------------"<<endl;
 							cout<<endl<<endl;
+                            d=1;
 						} 	
-							}	
+							else{	
 					   
 					   if(d==0) {
 	                   		cout<<"El doctor no tiene pacientes en este momento...";
@@ -241,7 +244,9 @@ int main()
 		                	}
 		                		
 		             
-		            		cout<<endl<<"Desea regresar al menu"<<endl;
+
+                   }  }
+		          cout<<endl<<"Desea regresar al menu"<<endl;
 		          cout<<"1.SI"<< endl;
 		          cin>>n;
                   system("cls");
